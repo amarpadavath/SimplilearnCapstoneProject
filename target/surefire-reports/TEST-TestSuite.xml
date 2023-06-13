@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="14" failures="4" name="TestSuite" time="304.827" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
+    <property name="java.vm.version" value="25.301-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\All eclipsewprk space\Capstone_Project\CapstroneProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\All eclipsewprk space\Capstone_Project\CapstroneProject"/>
+    <property name="java.runtime.version" value="1.8.0_301-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\aswin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\All eclipsewprk space\Capstone_Project\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2046413315145835704.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_301\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Eclipse/eclipse-jee-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Eclipse/eclipse-jee-2021-03-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Maven\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Users\aswin\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\aswin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;D:\Rogersoft material\AutomationUtils\apache maven\apache-maven-3.8.6\bin;C:\Users\aswin\AppData\Roaming\npm;;C:\Eclipse\eclipse-jee-2021-03-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\aswin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="aswin"/>
+    <property name="java.class.path" value="C:\Eclipse\eclipse-jee-2021-03-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_301\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_301"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\All eclipsewprk space\Capstone_Project\CapstroneProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="79.901"/>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="11.686"/>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="8.629"/>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="6.43">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.page_tiltle_should_be(LoginStepDefinition.java:81)
+	at ✽.Page Tiltle should be &quot;Medicare - Home&quot;(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/Login.feature:22)
+</failure>
+    <system-out>
+Scenario Outline: Successful Login with InValid Credentials               # src/test/java/feature/Login.feature:29
+  Given User is on Home Page                                              # stepdefinition.LoginStepDefinition.user_is_on_home_page()
+  When User Navigate to LogIn Page &quot;http://localhost:8088/medicare/login&quot; # stepdefinition.LoginStepDefinition.user_navigate_to_log_in_page(java.lang.String)
+  And User enters Email as &quot;kn@gmail1.com&quot; and Password as &quot;12345&quot;        # stepdefinition.LoginStepDefinition.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And Click on Login                                                      # stepdefinition.LoginStepDefinition.click_on_login()
+  Then Page Tiltle should be &quot;Medicare - Home&quot;                            # stepdefinition.LoginStepDefinition.page_tiltle_should_be(java.lang.String)
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.page_tiltle_should_be(LoginStepDefinition.java:81)
+	at âœ½.Page Tiltle should be &quot;Medicare - Home&quot;(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/Login.feature:22)
+
+  When User Click on Logout link                                          # stepdefinition.LoginStepDefinition.user_click_on_logout_link()
+  Then Page Tiltle should be &quot;Medicare - Login&quot;                           # stepdefinition.LoginStepDefinition.page_tiltle_should_be(java.lang.String)
+  And Close the Browser                                                   # stepdefinition.LoginStepDefinition.close_the_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 45582
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 13, 2023 9:43:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="6.106">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.page_tiltle_should_be(LoginStepDefinition.java:81)
+	at ✽.Page Tiltle should be &quot;Medicare - Home&quot;(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/Login.feature:22)
+</failure>
+    <system-out>
+Scenario Outline: Successful Login with InValid Credentials               # src/test/java/feature/Login.feature:30
+  Given User is on Home Page                                              # stepdefinition.LoginStepDefinition.user_is_on_home_page()
+  When User Navigate to LogIn Page &quot;http://localhost:8088/medicare/login&quot; # stepdefinition.LoginStepDefinition.user_navigate_to_log_in_page(java.lang.String)
+  And User enters Email as &quot;vk@gmail.com&quot; and Password as &quot;admin3&quot;        # stepdefinition.LoginStepDefinition.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And Click on Login                                                      # stepdefinition.LoginStepDefinition.click_on_login()
+  Then Page Tiltle should be &quot;Medicare - Home&quot;                            # stepdefinition.LoginStepDefinition.page_tiltle_should_be(java.lang.String)
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.page_tiltle_should_be(LoginStepDefinition.java:81)
+	at âœ½.Page Tiltle should be &quot;Medicare - Home&quot;(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/Login.feature:22)
+
+  When User Click on Logout link                                          # stepdefinition.LoginStepDefinition.user_click_on_logout_link()
+  Then Page Tiltle should be &quot;Medicare - Login&quot;                           # stepdefinition.LoginStepDefinition.page_tiltle_should_be(java.lang.String)
+  And Close the Browser                                                   # stepdefinition.LoginStepDefinition.close_the_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 45676
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 13, 2023 9:43:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="7.175">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.page_tiltle_should_be(LoginStepDefinition.java:81)
+	at ✽.Page Tiltle should be &quot;Medicare - Home&quot;(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/Login.feature:22)
+</failure>
+    <system-out>
+Scenario Outline: Successful Login with InValid Credentials               # src/test/java/feature/Login.feature:31
+  Given User is on Home Page                                              # stepdefinition.LoginStepDefinition.user_is_on_home_page()
+  When User Navigate to LogIn Page &quot;http://localhost:8088/medicare/login&quot; # stepdefinition.LoginStepDefinition.user_navigate_to_log_in_page(java.lang.String)
+  And User enters Email as &quot;vk@gmail23.com&quot; and Password as &quot;admin3&quot;      # stepdefinition.LoginStepDefinition.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And Click on Login                                                      # stepdefinition.LoginStepDefinition.click_on_login()
+  Then Page Tiltle should be &quot;Medicare - Home&quot;                            # stepdefinition.LoginStepDefinition.page_tiltle_should_be(java.lang.String)
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.page_tiltle_should_be(LoginStepDefinition.java:81)
+	at âœ½.Page Tiltle should be &quot;Medicare - Home&quot;(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/Login.feature:22)
+
+  When User Click on Logout link                                          # stepdefinition.LoginStepDefinition.user_click_on_logout_link()
+  Then Page Tiltle should be &quot;Medicare - Login&quot;                           # stepdefinition.LoginStepDefinition.page_tiltle_should_be(java.lang.String)
+  And Close the Browser                                                   # stepdefinition.LoginStepDefinition.close_the_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 19817
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 13, 2023 9:43:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="5.863"/>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="8.628"/>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="11.522"/>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="36.83"/>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="1.448"/>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="13.911">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.verify_the_product_is_added(LoginStepDefinition.java:192)
+	at ✽.Verify the product is added(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/manageproducts.feature:9)
+</failure>
+    <system-out>
+Scenario Outline: Addmin is able to add products                          # src/test/java/feature/manageproducts.feature:15
+  Given User is on Home Page                                              # stepdefinition.LoginStepDefinition.user_is_on_home_page()
+  When User Navigate to LogIn Page &quot;http://localhost:8088/medicare/login&quot; # stepdefinition.LoginStepDefinition.user_navigate_to_log_in_page(java.lang.String)
+  And User enters Email as &quot;vk@gmail.com&quot; and Password as &quot;admin&quot;         # stepdefinition.LoginStepDefinition.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And Click on Login                                                      # stepdefinition.LoginStepDefinition.click_on_login()
+  And Click on manage products                                            # stepdefinition.LoginStepDefinition.click_on_manage_products()
+  And Give2 releventdata                                                  # stepdefinition.LoginStepDefinition.give2_releventdata()
+  Then Verify the product is added                                        # stepdefinition.LoginStepDefinition.verify_the_product_is_added()
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.verify_the_product_is_added(LoginStepDefinition.java:192)
+	at âœ½.Verify the product is added(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/manageproducts.feature:9)
+
+  And Close the Browser                                                   # stepdefinition.LoginStepDefinition.close_the_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12225
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 13, 2023 9:45:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="45.481"/>
+  <testcase classname="testrunner.TestRunner" name="runScenario" time="61.217"/>
+</testsuite>

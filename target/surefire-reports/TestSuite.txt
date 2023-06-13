@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 308.651 sec <<< FAILURE!
+runScenario(testrunner.TestRunner)  Time elapsed: 6.43 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.page_tiltle_should_be(LoginStepDefinition.java:81)
+	at ?.Page Tiltle should be "Medicare - Home"(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/Login.feature:22)
+runScenario(testrunner.TestRunner)  Time elapsed: 6.106 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.page_tiltle_should_be(LoginStepDefinition.java:81)
+	at ?.Page Tiltle should be "Medicare - Home"(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/Login.feature:22)
+runScenario(testrunner.TestRunner)  Time elapsed: 7.175 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.page_tiltle_should_be(LoginStepDefinition.java:81)
+	at ?.Page Tiltle should be "Medicare - Home"(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/Login.feature:22)
+runScenario(testrunner.TestRunner)  Time elapsed: 13.911 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinition.LoginStepDefinition.verify_the_product_is_added(LoginStepDefinition.java:192)
+	at ?.Verify the product is added(file:///D:/All%20eclipsewprk%20space/Capstone_Project/CapstroneProject/src/test/java/feature/manageproducts.feature:9)
